@@ -89,6 +89,19 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 15px;
 }
+/**The below section lists CSS for the Contact Page **/
+
+.container-fluid form {
+  
+  background-color: #ffffff;
+  border-top: #cccccc 2px solid;
+  border-bottom: #cccccc 2px solid;
+  height: 75px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 960px;
+  padding-bottom: 25px;
+
+}
 
 
 /**The below section lists CSS for the Contact Page 
