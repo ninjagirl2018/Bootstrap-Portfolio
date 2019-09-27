@@ -147,23 +147,24 @@ button[type=button], select {
   font-family: Arial, Helvetica, sans-serif
 }
 
-.Project-Tile {
-  float: left;
+
+.Project-Tile-1 {
   width: 200px;
   height: 175px;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-top: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 45px;
+  margin-right: 45px;
   position: relative;
 }
 
-.Project-Tile {
-  float: left;
+.Project-Tile-2 {
   width: 200px;
   height: 175px;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-top: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
   position: relative;
 }
 
@@ -173,30 +174,24 @@ button[type=button], select {
   padding-top: 7.5px;
   padding-bottom: 7.5px;
   height: 32px;
-  top: 125px;
+  top: 105px;
   width: inherit;
   background-color: #4aaaa5;
   color: #ffffff;
   font-size: 16px;
   text-align: center;
 }
-img {
-  width: inherit;
+
+p2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 18x;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.row1 .Project-Tile {
+
 }
-
-.Row-1 {
-  padding-left:  87px;
-}
-
-.Row-2 {
-  padding-left: 220px;
-}
+  
 
 
 
@@ -205,29 +200,4 @@ img {
 
 
 
-.Project-Tile {
-  float: left;
-  width: 200px;
-  height: 175px;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-top: 30px;
-  position: relative;
-}
 
-
-
-/**
- .container-gallery{
-  background-color:#ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: #777777;
-  margin-right: 6em;
-  margin-left: 170px;
-  border: 1.5px solid #dddddd;
-  padding-left: 25px;
-  padding-right: 25px;
-  height:  550px;
-  width: 960px;
-}
