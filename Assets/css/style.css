@@ -20,10 +20,35 @@ body {
   padding-bottom: 25px;
 }
 
-.intro {
+.my-name {
+  background-color: #4aaaa5;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 200px;
+  height: inherit;
+  font-size: 28px; 
+  text-align: center;
+}
+
+
+#navbarResponsive a {
+  font-size: 16px;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  padding-left: 5px;
+  padding-right: 15px;
+  padding-top: 20px;
+ 
+}
+
+#intro {
   background-color: #ffffff;
-  height: 500px;
   margin-top: 25px;
+  width: 960px;
+  height: 500px;
 }
 
 .form {
@@ -38,32 +63,12 @@ body {
   margin-top: 25px;
 }
 
-.my-name {
-  background-color: #4aaaa5;
-  font-weight: bold;
-  color: white;
-  padding: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 200px;
-  height: 72px;
-  border: 20px #cccccc;
-  font-size: 28px; 
-  text-align: center;
+
+ 
+li {
+  
 }
 
-.topnav-right a{
-  font-size: 16px;
-  color: #777777;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: right;
-  padding-left: 5px;
-  padding-right: 15px;
-  padding-top: 20px;
- 
-}
-.topnav-right {
-  float: right;
-}
 
 hr {
   border: 1px solid #dddddd;
@@ -194,7 +199,10 @@ p2 {
   
 
 
-
+/** xs devices < 576px
+sm devices (phones in portrait) min. 576 and up
+md devices (tablets in portrain) min. 768 and up
+lg devices (laptops and desktops) min. 992 and up 
 
 
 
