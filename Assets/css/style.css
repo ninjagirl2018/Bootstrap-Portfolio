@@ -52,7 +52,35 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   width: 960px;
   padding-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
+hr {
+  border: 1px solid #dddddd;
+}
+
+p1 {
+  font-size: 24px;
+  color: #4aaaa5;
+  line-height: 1.5cm;
+}
+
+.footer-bottom {
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5; 
+	padding-top: 20px;
+  padding-bottom: 10px;
+  
+}
+
+.footer-bottom p {
+  font-size:  10px;
+  text-align: center;
+}
+
+/** CSS for Index Page **/
+
 
 .About-Me {
   font-size: 24px;
@@ -62,9 +90,6 @@ body {
   font-weight: bold;
 }
 
-hr {
-  border: 1px solid #dddddd;
-}
 
 #bio {
   width: 175px;
@@ -82,18 +107,8 @@ p {
   padding-left: 15px;
 }
 
-.footer-bottom {
-  background-color: #666666;
-  border-top: 8px solid #4aaaa5; 
-	padding-top: 20px;
-  padding-bottom: 10px;
-  
-}
 
-.footer-bottom p {
-  font-size:  10px;
-  text-align: center;
-}
+/** CSS for Contact Page **/
 
 .form {
   background-color: #ffffff;
@@ -103,157 +118,8 @@ p {
   color: #777777;
 }
 
-p1 {
-  font-size: 24px;
-  color: #4aaaa5;
-  line-height: 1.5cm;
-}
 
-.gallery{ 
-  background-color: #ffffff;
-  height: flex;
-  margin-top: 25px;
-}
-
-
-.Project-Tile-1 {
-  width: 200px;
-  height: 175px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 45px;
-  margin-right: 45px;
-  position: relative;
-}
-
-.Project-Tile-2 {
-  width: 200px;
-  height: 175px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 120px;
-  margin-right: 120px;
-  position: relative;
-}
-
-.Labels {
-  position: absolute; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 7.5px;
-  padding-bottom: 7.5px;
-  height: 32px;
-  top: 105px;
-  width: inherit;
-  background-color: #4aaaa5;
-  color: #ffffff;
-  font-size: 16px;
-  text-align: center;
-}
-
-.row-1 {
-  
-}
-/**subsection for divs common to all 3 pages and parent/child containers 
-
-footer {
-  height:  55px;
-  
-  margin-top: 50px;
-  padding-top: 10px;
-  
-  font-size: 10px;
-}
-
-.container-fluid {
-  background-color: #ffffff;
-  border-top: #cccccc 2px solid;
-  border-bottom: #cccccc 2px solid;
-  height: 75px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 960px;
-  padding-bottom: 25px;
-}
-
-.form {
-  background-color: #ffffff;
-  height: 500px;
-  margin-top: 25px;
-}
-
-.gallery{ 
-  background-color: #ffffff;
-  height: 500px;
-  margin-top: 25px;
-}
-
-
-
-p {
-  margin-right:  25px;
-  text-align: justify;
-  color: #82807d;
-  line-height: .75cm;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-left: 15px;
-}
-
-
-
-footer {
-  height:  55px;
-  background-color: #666666;
-  margin-top: 50px;
-  padding-top: 10px;
-  border-top: 8px solid #4aaaa5; 
-  font-size: 10px;
-}
-
-#footer-text {
-  text-align: center;
-}
-
-
-.About-Me {
-  font-size: 24px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #4aaaa5;
-  font-weight: bold;
-}
-
-
-/**The below section lists CSS for the Contact Page 
-
-.container-fluid form {
-  
-  background-color: #ffffff;
-  border-top: #cccccc 2px solid;
-  border-bottom: #cccccc 2px solid;
-  height: 450px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 960px;
-  padding-bottom: 25px;
-}
-  
-.form-group {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  color: #777777;
-}
-
-button[type=button], select {
-  background-color: #4aaaa5;
-  border: none;
-  color: white;
-  padding: 10px 26px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif
-}
-
+/** CSS for Portfolio Page **/
 
 .Project-Tile-1 {
   width: 200px;
@@ -295,10 +161,23 @@ p2 {
   font-size: 18x;
 }
 
-.row1 .Project-Tile {
-
+.Portfolio {
+  font-size: 24px;
+  line-height: 1.5cm;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  font-weight: bold;
+  margin-left: 20px;
 }
-  
+
+#Gallery {
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
+
 
 
 /** xs devices < 576px
