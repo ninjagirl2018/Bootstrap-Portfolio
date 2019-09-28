@@ -4,11 +4,165 @@
 
  /**The below section lists CSS common to all 3 pages  **/
 
+* body{
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
   background-image: url("../hotel-wallpaper.png");
-}  
+}
 
-  /**subsection for divs common to all 3 pages and parent/child containers **/
+.nav {
+  margin-bottom: 20px;
+}
+.navLinks {
+  list-style: none;
+  display: flex;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.my-name {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px; 
+  line-height: 30px;
+  margin-left: 10%;
+}
+
+.button{
+  margin-right: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+}
+
+.container-fluid {
+  background-color: #ffffff;
+  border-top: #cccccc 2px solid;
+  border-bottom: #cccccc 2px solid;
+  height: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 960px;
+  padding-bottom: 25px;
+}
+
+.About-Me {
+  font-size: 24px;
+  line-height: 1.5cm;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid #dddddd;
+}
+
+#bio {
+  width: 175px;
+  height: 200px;
+  float: left;
+  padding: 20px;
+}
+
+p {
+  margin-right:  25px;
+  text-align: justify;
+  color: #82807d;
+  line-height: .75cm;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 15px;
+}
+
+.footer-bottom {
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5; 
+	padding-top: 20px;
+  padding-bottom: 10px;
+  
+}
+
+.footer-bottom p {
+  font-size:  10px;
+  text-align: center;
+}
+
+.form {
+  background-color: #ffffff;
+  height: 500px;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+}
+
+p1 {
+  font-size: 24px;
+  color: #4aaaa5;
+  line-height: 1.5cm;
+}
+
+.gallery{ 
+  background-color: #ffffff;
+  height: flex;
+  margin-top: 25px;
+}
+
+
+.Project-Tile-1 {
+  width: 200px;
+  height: 175px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 45px;
+  margin-right: 45px;
+  position: relative;
+}
+
+.Project-Tile-2 {
+  width: 200px;
+  height: 175px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+  position: relative;
+}
+
+.Labels {
+  position: absolute; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  height: 32px;
+  top: 105px;
+  width: inherit;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.row-1 {
+  
+}
+/**subsection for divs common to all 3 pages and parent/child containers 
+
+footer {
+  height:  55px;
+  
+  margin-top: 50px;
+  padding-top: 10px;
+  
+  font-size: 10px;
+}
 
 .container-fluid {
   background-color: #ffffff;
@@ -18,37 +172,6 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   width: 960px;
   padding-bottom: 25px;
-}
-
-.my-name {
-  background-color: #4aaaa5;
-  font-weight: bold;
-  color: white;
-  padding: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 200px;
-  height: inherit;
-  font-size: 28px; 
-  text-align: center;
-}
-
-
-#navbarResponsive a {
-  font-size: 16px;
-  color: #777777;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: right;
-  padding-left: 5px;
-  padding-right: 15px;
-  padding-top: 20px;
- 
-}
-
-#intro {
-  background-color: #ffffff;
-  margin-top: 25px;
-  width: 960px;
-  height: 500px;
 }
 
 .form {
@@ -64,15 +187,6 @@ body {
 }
 
 
- 
-li {
-  
-}
-
-
-hr {
-  border: 1px solid #dddddd;
-}
 
 p {
   margin-right:  25px;
@@ -83,11 +197,6 @@ p {
   padding-left: 15px;
 }
 
-p1 {
-  font-size: 24px;
-  color: #4aaaa5;
-  line-height: 1.5cm;
-}
 
 
 footer {
@@ -111,15 +220,8 @@ footer {
   font-weight: bold;
 }
 
-#bio {
-  width: 175px;
-  height: 200px;
-  float: left;
-  padding: 20px;
-}
 
-
-/**The below section lists CSS for the Contact Page **/
+/**The below section lists CSS for the Contact Page 
 
 .container-fluid form {
   
